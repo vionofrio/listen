@@ -1,0 +1,119 @@
+{
+  "id": 1,
+  "name": "MURDER MANIAC",
+  "genre": "Phonk / Drift",
+  "tracks": [
+    {
+      "id": "version-1",
+      "label": "V1",
+      "tracks": [
+        {
+          "id": 1,
+          "title": "Phonk Demon",
+          "src": "/phonk-playlist-001/Phonk Demon.mp3"
+        },
+        {
+          "id": 2,
+          "title": "Redline Pursuit",
+          "src": "/phonk-playlist-001/Redline Pursuit.mp3"
+        },
+        {
+          "id": 3,
+          "title": "Maniac Ritual",
+          "src": "/phonk-playlist-001/Maniac Ritual.mp3"
+        },
+        {
+          "id": 4,
+          "title": "Glock 19",
+          "src": "/phonk-playlist-001/Glock 19.mp3"
+        },
+        {
+          "id": 5,
+          "title": "Nightmare Fuel",
+          "src": "/phonk-playlist-001/Nightmare Fuel.mp3"
+        },
+        {
+          "id": 6,
+          "title": "666 MPH",
+          "src": "/phonk-playlist-001/666 MPH.mp3"
+        },
+        {
+          "id": 7,
+          "title": "Ghost Rider",
+          "src": "/phonk-playlist-001/Ghost Rider.mp3"
+        },
+        {
+          "id": 8,
+          "title": "Blood On the Asphalt",
+          "src": "/phonk-playlist-001/Blood On the Asphalt.mp3"
+        },
+        {
+          "id": 9,
+          "title": "Slaughterhouse",
+          "src": "/phonk-playlist-001/Slaughterhouse.mp3"
+        },
+        {
+          "id": 10,
+          "title": "Dead Engine",
+          "src": "/phonk-playlist-001/Dead Engine.mp3"
+        }
+      ]
+    },
+    {
+      "id": "version-2",
+      "label": "V2",
+      "tracks": [
+        {
+          "id": 1,
+          "title": "Phonk Demon",
+          "src": "/phonk-playlist-001/Phonk Demon_1.mp3"
+        },
+        {
+          "id": 2,
+          "title": "Redline Pursuit",
+          "src": "/phonk-playlist-001/Redline Pursuit_1.mp3"
+        },
+        {
+          "id": 3,
+          "title": "Maniac Ritual",
+          "src": "/phonk-playlist-001/Maniac Ritual_1.mp3"
+        },
+        {
+          "id": 4,
+          "title": "Glock 19",
+          "src": "/phonk-playlist-001/Glock 19_1.mp3"
+        },
+        {
+          "id": 5,
+          "title": "Nightmare Fuel",
+          "src": "/phonk-playlist-001/Nightmare Fuel_1.mp3"
+        },
+        {
+          "id": 6,
+          "title": "666 MPH",
+          "src": "/phonk-playlist-001/666 MPH_1.mp3"
+        },
+        {
+          "id": 7,
+          "title": "Ghost Rider",
+          "src": "/phonk-playlist-001/Ghost Rider_1.mp3"
+        },
+        {
+          "id": 8,
+          "title": "Blood On the Asphalt",
+          "src": "/phonk-playlist-001/Blood On the Asphalt_1.mp3"
+        },
+        {
+          "id": 9,
+          "title": "Slaughterhouse",
+          "src": "/phonk-playlist-001/Slaughterhouse_1.mp3"
+        },
+        {
+          "id": 10,
+          "title": "Dead Engine",
+          "src": "/phonk-playlist-001/Dead Engine_1.mp3"
+        }
+      ]
+    }
+  ]
+}

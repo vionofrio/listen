@@ -1,0 +1,119 @@
+{
+  "id": 2,
+  "name": "TAPES FROM THE UNDERWORLD",
+  "genre": "Phonk / Memphis",
+  "tracks": [
+    {
+      "id": "version-1",
+      "label": "V1",
+      "tracks": [
+        {
+          "id": 1,
+          "title": "Midnight Graveyard",
+          "src": "/phonk-playlist-002/Midnight Graveyard.mp3"
+        },
+        {
+          "id": 2,
+          "title": "Section 8",
+          "src": "/phonk-playlist-002/Section 8.mp3"
+        },
+        {
+          "id": 3,
+          "title": "Devil’s Playground",
+          "src": "/phonk-playlist-002/Devils Playground.mp3"
+        },
+        {
+          "id": 4,
+          "title": "Black Cadillac",
+          "src": "/phonk-playlist-002/Black Cadillac.mp3"
+        },
+        {
+          "id": 5,
+          "title": "Tape Hiss Murder",
+          "src": "/phonk-playlist-002/Tape Hiss Murder.mp3"
+        },
+        {
+          "id": 6,
+          "title": "666 FM",
+          "src": "/phonk-playlist-002/666 FM.mp3"
+        },
+        {
+          "id": 7,
+          "title": "Glock in My Lap",
+          "src": "/phonk-playlist-002/Glock in My Lap.mp3"
+        },
+        {
+          "id": 8,
+          "title": "Phantasm",
+          "src": "/phonk-playlist-002/Phantasm.mp3"
+        },
+        {
+          "id": 9,
+          "title": "Crucifixion",
+          "src": "/phonk-playlist-002/Crucifixion.mp3"
+        },
+        {
+          "id": 10,
+          "title": "Static Goodbye",
+          "src": "/phonk-playlist-002/Static Goodbye.mp3"
+        }
+      ]
+    },
+    {
+      "id": "version-2",
+      "label": "V2",
+      "tracks": [
+        {
+          "id": 1,
+          "title": "Midnight Graveyard",
+          "src": "/phonk-playlist-002/Midnight Graveyard_1.mp3"
+        },
+        {
+          "id": 2,
+          "title": "Section 8",
+          "src": "/phonk-playlist-002/Section 8_1.mp3"
+        },
+        {
+          "id": 3,
+          "title": "Devil’s Playground",
+          "src": "/phonk-playlist-002/Devils Playground_1.mp3"
+        },
+        {
+          "id": 4,
+          "title": "Black Cadillac",
+          "src": "/phonk-playlist-002/Black Cadillac_1.mp3"
+        },
+        {
+          "id": 5,
+          "title": "Tape Hiss Murder",
+          "src": "/phonk-playlist-002/Tape Hiss Murder_1.mp3"
+        },
+        {
+          "id": 6,
+          "title": "666 FM",
+          "src": "/phonk-playlist-002/666 FM_1.mp3"
+        },
+        {
+          "id": 7,
+          "title": "Glock in My Lap",
+          "src": "/phonk-playlist-002/Glock in My Lap_1.mp3"
+        },
+        {
+          "id": 8,
+          "title": "Phantasm",
+          "src": "/phonk-playlist-002/Phantasm_1.mp3"
+        },
+        {
+          "id": 9,
+          "title": "Crucifixion",
+          "src": "/phonk-playlist-002/Crucifixion_1.mp3"
+        },
+        {
+          "id": 10,
+          "title": "Static Goodbye",
+          "src": "/phonk-playlist-002/Static Goodbye_1.mp3"
+        }
+      ]
+    }
+  ]
+}
