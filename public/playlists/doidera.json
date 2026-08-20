@@ -1,0 +1,39 @@
+{
+  "id": 1,
+  "name": "DOIDERA KKKK",
+  "genre": "Phonk / Brazilian Phonk",
+  "tracks": [
+    {
+      "id": "version-1",
+      "label": "V1",
+      "tracks": [
+        {
+          "id": 1,
+          "title": "Mente Má",
+          "src": "/phonk-playlist-004/Mente Má.mp3"
+        },
+        {
+          "id": 2,
+          "title": "Mente Má 2",
+          "src": "/phonk-playlist-004/Mente Má (2).mp3"
+        }
+      ]
+    },
+    {
+      "id": "version-2",
+      "label": "V2",
+      "tracks": [
+        {
+          "id": 1,
+          "title": "Mente Má",
+          "src": "/phonk-playlist-004/Mente Má (1).mp3"
+        },
+        {
+          "id": 2,
+          "title": "Mente Má 2",
+          "src": "/phonk-playlist-004/Mente Má (3).mp3"
+        }
+      ]
+    }
+  ]
+}
