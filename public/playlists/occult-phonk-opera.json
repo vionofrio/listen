@@ -1,0 +1,23 @@
+{
+  "id": 1,
+  "name": "Occult Phonk Opera",
+  "genre": "Witchcore × Memphis Phonk × Opera",
+  "tracks": [
+    {
+      "id": "version-1",
+      "label": "V1",
+      "tracks": [
+        {
+          "id": 1,
+          "title": "Don't Tell Me It's Not You 1",
+          "src": "/witchcore-playlist-001/I Stayed Anyway.mp3"
+        },
+        {
+          "id": 2,
+          "title": "Don't Tell Me It's Not You 2",
+          "src": "/witchcore-playlist-001/I Stayed Anyway (1).mp3"
+        }
+      ]
+    }
+  ]
+}
