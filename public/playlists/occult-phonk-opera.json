@@ -12,11 +12,15 @@
           "title": "Don't Tell Me It's Not You",
           "src": "/witchcore-playlist-001/I Stayed Anyway.mp3"
         },
-
         {
-          "id": 1,
+          "id": 2,
           "title": "Don't Look Away",
           "src": "/witchcore-playlist-001/Don't Look Away.mp3"
+        },
+        {
+          "id": 3,
+          "title": "Miserere",
+          "src": "/witchcore-playlist-001/Miserere (1).mp3"
         }
       ]
     },
@@ -33,6 +37,11 @@
           "id": 2,
           "title": "Don't Look Away",
           "src": "/witchcore-playlist-001/Don't Look Away (1).mp3"
+        },
+        {
+          "id": 3,
+          "title": "Miserere",
+          "src": "/witchcore-playlist-001/Miserere.mp3"
         }
       ]
     }
