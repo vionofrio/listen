@@ -206,7 +206,7 @@ export default function Home() {
                 <div className="border-[#28171d] border-b bg-[#170c11] px-4 py-4">
                   <div className="relative flex items-start justify-between">
                     <div className="min-w-0 pr-16">
-                      <span className="font-bold text-[#a85d72] text-[9px] uppercase tracking-[0.16em]">
+                      <span className="inline-block w-full truncate font-bold text-[#a85d72] text-[9px] uppercase tracking-[0.16em]">
                         {playlist.genre}
                       </span>
 

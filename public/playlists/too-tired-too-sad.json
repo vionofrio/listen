@@ -1,0 +1,119 @@
+{
+  "id": 1,
+  "name": "too tired to sleep, too sad to cry",
+  "genre": "Sad Phonk",
+  "tracks": [
+    {
+      "id": "version-1",
+      "label": "V1",
+      "tracks": [
+        {
+          "id": 1,
+          "title": "Staring at the Ceiling",
+          "src": "/too-tired-too-sad/Staring at the Ceiling.mp3"
+        },
+        {
+          "id": 2,
+          "title": "314 AM Insomnia",
+          "src": "/too-tired-too-sad/314 AM Insomnia.mp3"
+        },
+        {
+          "id": 3,
+          "title": "Heavy Eyelids Empty Mind",
+          "src": "/too-tired-too-sad/Heavy Eyelids Empty Mind.mp3"
+        },
+        {
+          "id": 4,
+          "title": "Glowing Screen Symphony",
+          "src": "/too-tired-too-sad/Glowing Screen Symphony.mp3"
+        },
+        {
+          "id": 5,
+          "title": "Too Numb for Tears",
+          "src": "/too-tired-too-sad/Too Numb for Tears.mp3"
+        },
+        {
+          "id": 6,
+          "title": "Ghost in My Own Bed",
+          "src": "/too-tired-too-sad/Ghost in My Own Bed.mp3"
+        },
+        {
+          "id": 7,
+          "title": "Echoes of Yesterday",
+          "src": "/too-tired-too-sad/Echoes of Yesterday.mp3"
+        },
+        {
+          "id": 8,
+          "title": "The Weight of Silence",
+          "src": "/too-tired-too-sad/The Weight of Silence.mp3"
+        },
+        {
+          "id": 9,
+          "title": "Chasing Shadows",
+          "src": "/too-tired-too-sad/Chasing Shadows.mp3"
+        },
+        {
+          "id": 10,
+          "title": "Static Noise in My Head",
+          "src": "/too-tired-too-sad/Static Noise in My Head.mp3"
+        }
+      ]
+    },
+    {
+      "id": "version-2",
+      "label": "V2",
+      "tracks": [
+        {
+          "id": 1,
+          "title": "Staring at the Ceiling",
+          "src": "/too-tired-too-sad/Staring at the Ceiling_1.mp3"
+        },
+        {
+          "id": 2,
+          "title": "314 AM Insomnia",
+          "src": "/too-tired-too-sad/314 AM Insomnia_1.mp3"
+        },
+        {
+          "id": 3,
+          "title": "Heavy Eyelids Empty Mind",
+          "src": "/too-tired-too-sad/Heavy Eyelids Empty Mind_1.mp3"
+        },
+        {
+          "id": 4,
+          "title": "Glowing Screen Symphony",
+          "src": "/too-tired-too-sad/Glowing Screen Symphony_1.mp3"
+        },
+        {
+          "id": 5,
+          "title": "Too Numb for Tears",
+          "src": "/too-tired-too-sad/Too Numb for Tears_1.mp3"
+        },
+        {
+          "id": 6,
+          "title": "Ghost in My Own Bed",
+          "src": "/too-tired-too-sad/Ghost in My Own Bed_1.mp3"
+        },
+        {
+          "id": 7,
+          "title": "Echoes of Yesterday",
+          "src": "/too-tired-too-sad/Echoes of Yesterday_1.mp3"
+        },
+        {
+          "id": 8,
+          "title": "The Weight of Silence",
+          "src": "/too-tired-too-sad/The Weight of Silence_1.mp3"
+        },
+        {
+          "id": 9,
+          "title": "Chasing Shadows",
+          "src": "/too-tired-too-sad/Chasing Shadows_1.mp3"
+        },
+        {
+          "id": 10,
+          "title": "Static Noise in My Head",
+          "src": "/too-tired-too-sad/Static Noise in My Head_1.mp3"
+        }
+      ]
+    }
+  ]
+}
