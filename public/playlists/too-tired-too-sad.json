@@ -56,6 +56,56 @@
           "id": 10,
           "title": "Static Noise in My Head",
           "src": "/too-tired-too-sad/Static Noise in My Head.mp3"
+        },
+        {
+          "id": 11,
+          "title": "Raindrops on the Glass",
+          "src": "/too-tired-too-sad/Raindrops on the Glass.mp3"
+        },
+        {
+          "id": 12,
+          "title": "Drowning on Dry Land",
+          "src": "/too-tired-too-sad/Drowning on Dry Land.mp3"
+        },
+        {
+          "id": 13,
+          "title": "Cold Coffee at Midnight",
+          "src": "/too-tired-too-sad/Cold Coffee at Midnight.mp3"
+        },
+        {
+          "id": 14,
+          "title": "Mistakes on Repeat",
+          "src": "/too-tired-too-sad/Mistakes on Repeat.mp3"
+        },
+        {
+          "id": 15,
+          "title": "Blurry Memories",
+          "src": "/too-tired-too-sad/Blurry Memories.mp3"
+        },
+        {
+          "id": 16,
+          "title": "Floating Through the Dark",
+          "src": "/too-tired-too-sad/Floating Through the Dark.mp3"
+        },
+        {
+          "id": 17,
+          "title": "Lost in the Cosmos",
+          "src": "/too-tired-too-sad/Lost in the Cosmos.mp3"
+        },
+        {
+          "id": 18,
+          "title": "No Light Left",
+          "src": "/too-tired-too-sad/No Light Left.mp3"
+        },
+        {
+          "id": 19,
+          "title": "Midnight Drifting",
+          "src": "/too-tired-too-sad/Midnight Drifting.mp3"
+        },
+        {
+          "id": 20,
+          "title": "Unreachable Peace",
+          "src": "/too-tired-too-sad/Unreachable Peace.mp3"
         }
       ]
     },
@@ -112,6 +162,56 @@
           "id": 10,
           "title": "Static Noise in My Head",
           "src": "/too-tired-too-sad/Static Noise in My Head_1.mp3"
+        },
+        {
+          "id": 11,
+          "title": "Raindrops on the Glass",
+          "src": "/too-tired-too-sad/Raindrops on the Glass (1).mp3"
+        },
+        {
+          "id": 12,
+          "title": "Drowning on Dry Land",
+          "src": "/too-tired-too-sad/Drowning on Dry Land (1).mp3"
+        },
+        {
+          "id": 13,
+          "title": "Cold Coffee at Midnight",
+          "src": "/too-tired-too-sad/Cold Coffee at Midnight (1).mp3"
+        },
+        {
+          "id": 14,
+          "title": "Mistakes on Repeat",
+          "src": "/too-tired-too-sad/Mistakes on Repeat (1).mp3"
+        },
+        {
+          "id": 15,
+          "title": "Blurry Memories",
+          "src": "/too-tired-too-sad/Blurry Memories (1).mp3"
+        },
+        {
+          "id": 16,
+          "title": "Floating Through the Dark",
+          "src": "/too-tired-too-sad/Floating Through the Dark (1).mp3"
+        },
+        {
+          "id": 17,
+          "title": "Lost in the Cosmos",
+          "src": "/too-tired-too-sad/Lost in the Cosmos (1).mp3"
+        },
+        {
+          "id": 18,
+          "title": "No Light Left",
+          "src": "/too-tired-too-sad/No Light Left (1).mp3"
+        },
+        {
+          "id": 19,
+          "title": "Midnight Drifting",
+          "src": "/too-tired-too-sad/Midnight Drifting (1).mp3"
+        },
+        {
+          "id": 20,
+          "title": "Unreachable Peace",
+          "src": "/too-tired-too-sad/Unreachable Peace (1).mp3"
         }
       ]
     }
