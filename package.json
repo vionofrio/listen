@@ -10,6 +10,7 @@
     "format": "biome format --write"
   },
   "dependencies": {
+    "jszip": "^3.10.1",
     "lucide-react": "^1.32.0",
     "next": "16.3.1",
     "react": "19.2.8",

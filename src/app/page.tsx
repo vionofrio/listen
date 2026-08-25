@@ -3,6 +3,7 @@
 import { Icon } from "@iconify/react";
 import { useEffect, useState } from "react";
 import ReactPlayer from "react-player";
+import DownloadPlaylistButton from "@/components/DownloadPlaylistButton";
 import type { PlaylistContextType, PlaylistData } from "@/types/playlist";
 
 const VOLUME_STORAGE_KEY = "velvet-midnight-volume";
@@ -218,6 +219,9 @@ export default function Home() {
                     <span className="absolute right-0 rounded-full border border-[#322027] bg-[#201117] px-2.5 py-1 font-medium text-[#806a71] text-[9px]">
                       {playlist.tracks[0]?.tracks.length ?? 0} faixas
                     </span>
+                    <div className="absolute right-0 bottom-0">
+                      <DownloadPlaylistButton playlist={playlist} />
+                    </div>
                   </div>
                 </div>
 
