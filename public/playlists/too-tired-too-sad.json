@@ -156,6 +156,56 @@
           "id": 30,
           "title": "Exhausted Soul",
           "src": "/too-tired-too-sad/Exhausted Soul.mp3"
+        },
+        {
+          "id": 31,
+          "title": "Retro Sadness",
+          "src": "/too-tired-too-sad/Retro Sadness.mp3"
+        },
+        {
+          "id": 32,
+          "title": "Neon Tears",
+          "src": "/too-tired-too-sad/Neon Tears.mp3"
+        },
+        {
+          "id": 33,
+          "title": "1995 Nostalgia",
+          "src": "/too-tired-too-sad/1995 Nostalgia.mp3"
+        },
+        {
+          "id": 34,
+          "title": "Fading Away",
+          "src": "/too-tired-too-sad/Fading Away.mp3"
+        },
+        {
+          "id": 35,
+          "title": "VHS Static Dreams",
+          "src": "/too-tired-too-sad/VHS Static Dreams.mp3"
+        },
+        {
+          "id": 36,
+          "title": "Heartbeat in the Dark",
+          "src": "/too-tired-too-sad/Heartbeat in the Dark.mp3"
+        },
+        {
+          "id": 37,
+          "title": "Just a Hollow Shell",
+          "src": "/too-tired-too-sad/Just a Hollow Shell.mp3"
+        },
+        {
+          "id": 38,
+          "title": "Nowhere to Run",
+          "src": "/too-tired-too-sad/Nowhere to Run.mp3"
+        },
+        {
+          "id": 39,
+          "title": "Waiting for Dawn",
+          "src": "/too-tired-too-sad/Waiting for Dawn.mp3"
+        },
+        {
+          "id": 40,
+          "title": "Finally Numb",
+          "src": "/too-tired-too-sad/Finally Numb.mp3"
         }
       ]
     },
@@ -312,6 +362,56 @@
           "id": 30,
           "title": "Exhausted Soul",
           "src": "/too-tired-too-sad/Exhausted Soul_1.mp3"
+        },
+        {
+          "id": 31,
+          "title": "Retro Sadness",
+          "src": "/too-tired-too-sad/Retro Sadness_1.mp3"
+        },
+        {
+          "id": 32,
+          "title": "Neon Tears",
+          "src": "/too-tired-too-sad/Neon Tears_1.mp3"
+        },
+        {
+          "id": 33,
+          "title": "1995 Nostalgia",
+          "src": "/too-tired-too-sad/1995 Nostalgia_1.mp3"
+        },
+        {
+          "id": 34,
+          "title": "Fading Away",
+          "src": "/too-tired-too-sad/Fading Away_1.mp3"
+        },
+        {
+          "id": 35,
+          "title": "VHS Static Dreams",
+          "src": "/too-tired-too-sad/VHS Static Dreams_1.mp3"
+        },
+        {
+          "id": 36,
+          "title": "Heartbeat in the Dark",
+          "src": "/too-tired-too-sad/Heartbeat in the Dark_1.mp3"
+        },
+        {
+          "id": 37,
+          "title": "Just a Hollow Shell",
+          "src": "/too-tired-too-sad/Just a Hollow Shell_1.mp3"
+        },
+        {
+          "id": 38,
+          "title": "Nowhere to Run",
+          "src": "/too-tired-too-sad/Nowhere to Run_1.mp3"
+        },
+        {
+          "id": 39,
+          "title": "Waiting for Dawn",
+          "src": "/too-tired-too-sad/Waiting for Dawn_1.mp3"
+        },
+        {
+          "id": 40,
+          "title": "Finally Numb",
+          "src": "/too-tired-too-sad/Finally Numb_1.mp3"
         }
       ]
     }

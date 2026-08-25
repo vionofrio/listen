@@ -20,13 +20,16 @@ export default function DownloadPlaylistButton({
     setProgress(0);
     const zip = new JSZip();
 
-    // 1. Coleta todas as faixas achatadas em uma única lista para processar o progresso
     const allTracksToDownload = playlist.tracks.flatMap((trackSet) =>
-      trackSet.tracks.map((track) => ({
-        setLabel: trackSet.label, // Ex: "V1", "V2"
-        title: track.title, // Ex: "Staring at the Ceiling"
-        src: track.src, // Ex: "/too-tired-too-sad/Staring at the Ceiling.mp3"
-      })),
+      trackSet.tracks.map((track, index) => {
+        const trackNumber = String(index + 1).padStart(2, "0");
+
+        return {
+          setLabel: trackSet.label,
+          formattedName: `${trackNumber} - ${track.title}`,
+          src: track.src,
+        };
+      }),
     );
 
     if (allTracksToDownload.length === 0) {
@@ -35,21 +38,18 @@ export default function DownloadPlaylistButton({
     }
 
     try {
-      // 2. Faz o download em paralelo de todos os MP3s mapeados no JSON
       const downloadPromises = allTracksToDownload.map(async (track, index) => {
         const response = await fetch(track.src);
-        if (!response.ok) throw new Error(`Falha ao baixar ${track.title}`);
+        if (!response.ok)
+          throw new Error(`Falha ao baixar ${track.formattedName}`);
 
         const blob = await response.blob();
 
-        // Pega a extensão original do arquivo (.mp3)
         const fileExtension = track.src.split(".").pop() || "mp3";
 
-        // Organiza os arquivos dentro do ZIP criando subpastas por versão (Ex: V1/Staring at the Ceiling.mp3)
-        const zipPath = `${track.setLabel}/${track.title}.${fileExtension}`;
+        const zipPath = `${track.setLabel}/${track.formattedName}.${fileExtension}`;
         zip.file(zipPath, blob);
 
-        // Atualiza a primeira metade da barra de progresso (0% a 50%) baseado nos downloads concluídos
         setProgress(
           Math.round(((index + 1) / allTracksToDownload.length) * 50),
         );
@@ -57,21 +57,17 @@ export default function DownloadPlaylistButton({
 
       await Promise.all(downloadPromises);
 
-      // 3. Compacta tudo em um arquivo .zip
       const zipContent = await zip.generateAsync(
         { type: "blob" },
         (metadata) => {
-          // Atualiza a segunda metade da barra de progresso (50% a 100%) baseado na compactação
           setProgress(50 + Math.round(metadata.percent / 2));
         },
       );
 
-      // 4. Dispara o download nativo no navegador
       const url = window.URL.createObjectURL(zipContent);
       const link = document.createElement("a");
       link.href = url;
 
-      // Nomeia o arquivo com o nome da playlist limpo (sem espaços problemáticos)
       const sanitizedName = playlist.name
         .toLowerCase()
         .replace(/[^a-z0-9]+/g, "-");
@@ -80,7 +76,6 @@ export default function DownloadPlaylistButton({
       document.body.appendChild(link);
       link.click();
 
-      // Limpeza de cache e DOM
       document.body.removeChild(link);
       window.URL.revokeObjectURL(url);
     } catch (error) {
