@@ -1,0 +1,29 @@
+{
+  "id": 4,
+  "name": "Dreamcore",
+  "genre": "Dreamcore",
+  "tracks": [
+    {
+      "id": "version-1",
+      "label": "V1",
+      "tracks": [
+        {
+          "id": 1,
+          "title": "Celestial Drift",
+          "src": "/dreamcore/Celestial Drift.mp3"
+        }
+      ]
+    },
+    {
+      "id": "version-2",
+      "label": "V2",
+      "tracks": [
+        {
+          "id": 1,
+          "title": "Celestial Drift",
+          "src": "/dreamcore/Celestial Drift_1.mp3"
+        }
+      ]
+    }
+  ]
+}
