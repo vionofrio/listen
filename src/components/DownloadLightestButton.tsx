@@ -109,7 +109,7 @@ export default function DownloadLightestButton({
       const sanitizedName = playlist.name
         .toLowerCase()
         .replace(/[^a-z0-9]+/g, "-");
-      link.download = `${sanitizedName}-versao-leve.zip`;
+      link.download = `${sanitizedName}-curtas.zip`;
 
       document.body.appendChild(link);
       link.click();
@@ -131,7 +131,7 @@ export default function DownloadLightestButton({
       onClick={downloadLightestTracks}
       disabled={isDownloading}
       className="flex items-center gap-1.5 rounded-full border border-[#203227] bg-[#112015] px-2.5 py-1 font-medium text-[#6a8071] text-[10px] transition-all duration-200 hover:border-[#2e5a3d] hover:bg-[#162c1c] hover:text-[#e5f1e8] disabled:cursor-not-allowed disabled:opacity-50"
-      title="Baixar a versão mais leve de cada música"
+      title="Baixar todas as faixas desta playlist em ZIP (as versões mais curtas)"
     >
       <Icon
         icon={isDownloading ? "svg-spinners:180-ring" : "ph:lightning-bold"}

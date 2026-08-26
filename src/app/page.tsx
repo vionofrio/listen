@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import ReactPlayer from "react-player";
 import DownloadLightestButton from "@/components/DownloadLightestButton";
 import DownloadPlaylistButton from "@/components/DownloadPlaylistButton";
-import TrackDuration from "@/components/TrackDuration";
+import PlaylistTrackList from "@/components/PlaylistTrackList";
 import type { PlaylistContextType, PlaylistData } from "@/types/playlist";
 
 const VOLUME_STORAGE_KEY = "velvet-midnight-volume";
@@ -165,7 +165,7 @@ export default function Home() {
   };
 
   return (
-    <div className="flex h-screen flex-col bg-[#0b0709] font-sans text-[#eee5e7] antialiased selection:bg-[#8f3f58] selection:text-white">
+    <div className="scrollbar-thin scrollbar-thumb-[#39202a] scrollbar-track-transparent flex h-screen flex-col bg-[#0b0709] font-sans text-[#eee5e7] antialiased selection:bg-[#8f3f58] selection:text-white">
       <main className="flex-1 overflow-y-auto">
         <div className="mx-auto max-w-7xl px-4 py-7 md:px-8 md:py-9">
           <header className="mb-7 flex items-center justify-between border-[#28171d] border-b pb-6">
@@ -235,96 +235,12 @@ export default function Home() {
                 </div>
                 <div className="scrollbar-thin scrollbar-thumb-[#39202a] scrollbar-track-transparent flex-1 overflow-x-auto overflow-y-auto p-2.5">
                   <div className="flex min-w-max gap-2">
-                    {playlist.tracks.map((trackSet) => {
-                      const trackSetIndex = playlist.tracks.findIndex(
-                        (set) => set.id === trackSet.id,
-                      );
-
-                      return (
-                        <div key={trackSet.id} className="min-w-55 flex-1">
-                          <div className="mb-1.5 flex items-center gap-2 px-3 py-1.5">
-                            <span className="h-px w-3 bg-[#4b2733]" />
-
-                            <span className="font-semibold text-[#765d65] text-[8px] uppercase tracking-[0.16em]">
-                              {trackSet.label}
-                            </span>
-
-                            <span className="h-px flex-1 bg-[#24151b]" />
-                          </div>
-
-                          <ul className="space-y-0.5">
-                            {trackSet.tracks.map((track, idx) => {
-                              const isCurrentTrack =
-                                current.playlistId === playlist.id &&
-                                current.trackSetIndex === trackSetIndex &&
-                                current.trackIndex === idx;
-
-                              return (
-                                <li key={track.id}>
-                                  <button
-                                    type="button"
-                                    onClick={() =>
-                                      handlePlayTrack(
-                                        playlist.id,
-                                        trackSetIndex,
-                                        idx,
-                                      )
-                                    }
-                                    className={`group/btn flex w-full items-center justify-between rounded-lg border px-3 py-2 text-xs transition-all duration-200 ${
-                                      isCurrentTrack
-                                        ? "border-[#6c3045] bg-[#341520] text-[#e8c7d0] shadow-[inset_3px_0_0_#a4526c,0_4px_15px_rgba(81,25,45,0.2)]"
-                                        : "border-transparent text-[#aa969c] hover:border-[#2e1b22] hover:bg-[#1d1016] hover:text-[#e5d7da]"
-                                    }`}
-                                  >
-                                    <div className="flex min-w-0 items-center gap-2.5">
-                                      <span
-                                        className={`w-4 shrink-0 text-left font-medium text-[10px] ${
-                                          isCurrentTrack
-                                            ? "text-[#bd7088]"
-                                            : "text-[#5d4b51]"
-                                        }`}
-                                      >
-                                        {String(idx + 1).padStart(2, "0")}
-                                      </span>
-
-                                      <span className="truncate">
-                                        {track.title}
-                                      </span>
-
-                                      <TrackDuration src={track.src} />
-                                    </div>
-
-                                    {isCurrentTrack ? (
-                                      <div className="ml-2 flex shrink-0 items-center">
-                                        {isPlaying ? (
-                                          <Icon
-                                            icon="ph:waveform-bold"
-                                            width={14}
-                                            className="text-[#bc6b83]"
-                                          />
-                                        ) : (
-                                          <Icon
-                                            icon="ph:play-fill"
-                                            width={13}
-                                            className="text-[#bc6b83]"
-                                          />
-                                        )}
-                                      </div>
-                                    ) : (
-                                      <Icon
-                                        icon="ph:play-fill"
-                                        width={11}
-                                        className="ml-2 shrink-0 text-[#725b63] opacity-0 transition-opacity group-hover/btn:opacity-100"
-                                      />
-                                    )}
-                                  </button>
-                                </li>
-                              );
-                            })}
-                          </ul>
-                        </div>
-                      );
-                    })}
+                    <PlaylistTrackList
+                      playlist={playlist}
+                      current={current}
+                      isPlaying={isPlaying}
+                      handlePlayTrack={handlePlayTrack}
+                    />
                   </div>
                 </div>
               </div>
