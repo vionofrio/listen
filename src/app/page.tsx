@@ -3,6 +3,7 @@
 import { Icon } from "@iconify/react";
 import { useEffect, useState } from "react";
 import ReactPlayer from "react-player";
+import DownloadLightestButton from "@/components/DownloadLightestButton";
 import DownloadPlaylistButton from "@/components/DownloadPlaylistButton";
 import TrackDuration from "@/components/TrackDuration";
 import type { PlaylistContextType, PlaylistData } from "@/types/playlist";
@@ -199,29 +200,36 @@ export default function Home() {
             </div>
           )}
 
-          <section className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          <section className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-2">
             {playlists.map((playlist) => (
               <div
                 key={playlist.id}
                 className="group flex max-h-105 flex-col overflow-hidden rounded-2xl border border-[#2a171e] bg-[#130b0f] shadow-[0_12px_40px_rgba(0,0,0,0.2)] transition-all duration-300 hover:border-[#482431] hover:shadow-[0_14px_45px_rgba(62,21,35,0.25)]"
               >
-                <div className="border-[#28171d] border-b bg-[#170c11] px-4 py-4">
-                  <div className="relative flex items-start justify-between">
-                    <div className="min-w-0 pr-16">
-                      <span className="inline-block w-full truncate font-bold text-[#a85d72] text-[9px] uppercase tracking-[0.16em]">
-                        {playlist.genre}
-                      </span>
-
-                      <h3 className="mt-1.5 truncate font-bold text-[#f1e5e8] text-[15px] tracking-tight">
+                <div className="border-[#28171d] border-b bg-[#170c11] p-5">
+                  <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+                    <div className="min-w-0 space-y-1">
+                      <h3
+                        className="truncate font-extrabold text-[#f1e5e8] text-[17px] tracking-tight"
+                        title={playlist.name}
+                      >
                         {playlist.name}
                       </h3>
+
+                      <div className="flex items-center gap-2 font-medium text-[#806a71] text-[11px]">
+                        <span className="truncate font-semibold text-[#a85d72] text-[10px] uppercase tracking-wider">
+                          {playlist.genre}
+                        </span>
+                        <span className="text-[#3a252d]">•</span>
+                        <span className="shrink-0">
+                          {playlist.tracks[0]?.tracks.length ?? 0} faixas
+                        </span>
+                      </div>
                     </div>
 
-                    <span className="absolute right-0 rounded-full border border-[#322027] bg-[#201117] px-2.5 py-1 font-medium text-[#806a71] text-[9px]">
-                      {playlist.tracks[0]?.tracks.length ?? 0} faixas
-                    </span>
-                    <div className="absolute right-0 bottom-0">
+                    <div className="flex shrink-0 items-center justify-end gap-2 rounded-xl border border-[#231419] bg-[#0b0709]/60 p-1.5 sm:border-none sm:bg-transparent sm:p-0">
                       <DownloadPlaylistButton playlist={playlist} />
+                      <DownloadLightestButton playlist={playlist} />
                     </div>
                   </div>
                 </div>
