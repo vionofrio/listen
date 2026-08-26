@@ -4,6 +4,7 @@ import { Icon } from "@iconify/react";
 import { useEffect, useState } from "react";
 import ReactPlayer from "react-player";
 import DownloadPlaylistButton from "@/components/DownloadPlaylistButton";
+import TrackDuration from "@/components/TrackDuration";
 import type { PlaylistContextType, PlaylistData } from "@/types/playlist";
 
 const VOLUME_STORAGE_KEY = "velvet-midnight-volume";
@@ -224,7 +225,6 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-
                 <div className="scrollbar-thin scrollbar-thumb-[#39202a] scrollbar-track-transparent flex-1 overflow-x-auto overflow-y-auto p-2.5">
                   <div className="flex min-w-max gap-2">
                     {playlist.tracks.map((trackSet) => {
@@ -282,6 +282,8 @@ export default function Home() {
                                       <span className="truncate">
                                         {track.title}
                                       </span>
+
+                                      <TrackDuration src={track.src} />
                                     </div>
 
                                     {isCurrentTrack ? (
