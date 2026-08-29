@@ -130,7 +130,7 @@ export default function DownloadLightestButton({
       type="button"
       onClick={downloadLightestTracks}
       disabled={isDownloading}
-      className="flex items-center gap-1.5 rounded-full border border-[#203227] bg-[#112015] px-2.5 py-1 font-medium text-[#6a8071] text-[10px] transition-all duration-200 hover:border-[#2e5a3d] hover:bg-[#162c1c] hover:text-[#e5f1e8] disabled:cursor-not-allowed disabled:opacity-50"
+      className="flex items-center gap-1 rounded border border-[#203227]/60 bg-[#112015] px-2 py-0.5 font-medium text-[#6a8071] text-[9px] hover:border-[#2e5a3d] hover:bg-[#162c1c] hover:text-[#e5f1e8] disabled:opacity-40"
       title="Baixar todas as faixas desta playlist em ZIP (as versões mais curtas)"
     >
       <Icon

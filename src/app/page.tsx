@@ -200,24 +200,24 @@ export default function Home() {
             </div>
           )}
 
-          <section className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-2">
+          <section className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
             {playlists.map((playlist) => (
               <div
                 key={playlist.id}
-                className="group flex max-h-105 flex-col overflow-hidden rounded-2xl border border-[#2a171e] bg-[#130b0f] shadow-[0_12px_40px_rgba(0,0,0,0.2)] transition-all duration-300 hover:border-[#482431] hover:shadow-[0_14px_45px_rgba(62,21,35,0.25)]"
+                className="group flex max-h-80 flex-col overflow-hidden rounded-xl border border-[#2a171e] bg-[#130b0f] shadow-[0_8px_30px_rgba(0,0,0,0.2)] transition-all duration-300 hover:border-[#482431]"
               >
-                <div className="border-[#28171d] border-b bg-[#170c11] p-5">
-                  <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-                    <div className="min-w-0 space-y-1">
+                <div className="border-[#28171d] border-b bg-[#170c11] px-3 py-2">
+                  <div className="flex flex-row items-center justify-between gap-2">
+                    <div className="min-w-0">
                       <h3
-                        className="truncate font-extrabold text-[#f1e5e8] text-[17px] tracking-tight"
+                        className="truncate font-extrabold text-[#f1e5e8] text-sm tracking-tight"
                         title={playlist.name}
                       >
                         {playlist.name}
                       </h3>
 
-                      <div className="flex items-center gap-2 font-medium text-[#806a71] text-[11px]">
-                        <span className="truncate font-semibold text-[#a85d72] text-[10px] uppercase tracking-wider">
+                      <div className="flex items-center gap-1.5 font-medium text-[#806a71] text-[10px]">
+                        <span className="truncate font-semibold text-[#a85d72] text-[9px] uppercase tracking-wider">
                           {playlist.genre}
                         </span>
                         <span className="text-[#3a252d]">•</span>
@@ -227,21 +227,20 @@ export default function Home() {
                       </div>
                     </div>
 
-                    <div className="flex shrink-0 items-center justify-end gap-2 rounded-xl border border-[#231419] bg-[#0b0709]/60 p-1.5 sm:border-none sm:bg-transparent sm:p-0">
+                    <div className="flex shrink-0 items-center justify-end gap-1">
                       <DownloadPlaylistButton playlist={playlist} />
                       <DownloadLightestButton playlist={playlist} />
                     </div>
                   </div>
                 </div>
-                <div className="scrollbar-thin scrollbar-thumb-[#39202a] scrollbar-track-transparent flex-1 overflow-x-auto overflow-y-auto p-2.5">
-                  <div className="flex min-w-max gap-2">
-                    <PlaylistTrackList
-                      playlist={playlist}
-                      current={current}
-                      isPlaying={isPlaying}
-                      handlePlayTrack={handlePlayTrack}
-                    />
-                  </div>
+
+                <div className="scrollbar-thin scrollbar-thumb-[#39202a] scrollbar-track-transparent flex-1 overflow-y-auto bg-[#0f070a] p-1.5">
+                  <PlaylistTrackList
+                    playlist={playlist}
+                    current={current}
+                    isPlaying={isPlaying}
+                    handlePlayTrack={handlePlayTrack}
+                  />
                 </div>
               </div>
             ))}
