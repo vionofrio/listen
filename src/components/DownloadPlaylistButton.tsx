@@ -92,7 +92,7 @@ export default function DownloadPlaylistButton({
       type="button"
       onClick={handleDownloadAll}
       disabled={isDownloading}
-      className="flex items-center gap-1.5 rounded-full border border-[#322027] bg-[#201117] px-2.5 py-1 font-medium text-[#806a71] text-[10px] transition-all duration-200 hover:border-[#5a2e3d] hover:bg-[#2c1620] hover:text-[#f1e5e8] disabled:cursor-not-allowed disabled:opacity-50"
+      className="flex items-center gap-1 rounded border border-[#322027]/60 bg-[#201117] px-2 py-0.5 font-medium text-[#806a71] text-[9px] hover:border-[#5a2e3d] hover:bg-[#2c1620] hover:text-[#f1e5e8] disabled:opacity-40"
       title="Baixar todas as faixas desta playlist em ZIP"
     >
       <Icon
