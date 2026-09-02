@@ -1,0 +1,39 @@
+{
+  "id": 2,
+  "name": "maybe in another life",
+  "genre": "Sad Lo-fi",
+  "tracks": [
+    {
+      "id": "version-1",
+      "label": "V1",
+      "tracks": [
+        {
+          "id": 1,
+          "title": "never got our happy ending",
+          "src": "/maybe-in-another-life/01 — never got our happy ending.wav"
+        },
+        {
+          "id": 2,
+          "title": "maybe in another life",
+          "src": "/maybe-in-another-life/02 — maybe in another life.wav"
+        }
+      ]
+    },
+    {
+      "id": "version-2",
+      "label": "V2",
+      "tracks": [
+        {
+          "id": 1,
+          "title": "never got our happy ending",
+          "src": "/maybe-in-another-life/01 — never got our happy ending (1).wav"
+        },
+        {
+          "id": 2,
+          "title": "maybe in another life",
+          "src": "/maybe-in-another-life/02 — maybe in another life (1).wav"
+        }
+      ]
+    }
+  ]
+}

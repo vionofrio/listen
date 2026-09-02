@@ -1,0 +1,119 @@
+{
+  "id": 1,
+  "name": "for what wasnt",
+  "genre": "Sad Ambient Drone Lullaby",
+  "tracks": [
+    {
+      "id": "version-1",
+      "label": "V1",
+      "tracks": [
+        {
+          "id": 1,
+          "title": "for what wasnt",
+          "src": "/for-what-wasnt/01 For What Wasnt.mp3"
+        },
+        {
+          "id": 2,
+          "title": "maybe somewhere else",
+          "src": "/for-what-wasnt/02 Maybe Somewhere Else.mp3"
+        },
+        {
+          "id": 3,
+          "title": "we were younger then",
+          "src": "/for-what-wasnt/03 We Were Younger Then.mp3"
+        },
+        {
+          "id": 4,
+          "title": "the house after midnight",
+          "src": "/for-what-wasnt/04 The House After Midnight.mp3"
+        },
+        {
+          "id": 5,
+          "title": "i dont remember your face",
+          "src": "/for-what-wasnt/05 I Dont Remember Your Face.mp3"
+        },
+        {
+          "id": 6,
+          "title": "the tape was already there",
+          "src": "/for-what-wasnt/06 The Tape Was Already There.mp3"
+        },
+        {
+          "id": 7,
+          "title": "nothing happened really",
+          "src": "/for-what-wasnt/07 Nothing Happened Really.mp3"
+        },
+        {
+          "id": 8,
+          "title": "you were supposed to be here",
+          "src": "/for-what-wasnt/08 You Were Supposed to Be Here.mp3"
+        },
+        {
+          "id": 9,
+          "title": "before everything changed",
+          "src": "/for-what-wasnt/09 Before Everything Changed.mp3"
+        },
+        {
+          "id": 10,
+          "title": "when the tape ends",
+          "src": "/for-what-wasnt/10 When the Tape Ends.mp3"
+        }
+      ]
+    },
+    {
+      "id": "version-2",
+      "label": "V2",
+      "tracks": [
+        {
+          "id": 1,
+          "title": "for what wasnt",
+          "src": "/for-what-wasnt/01 For What Wasnt_1.mp3"
+        },
+        {
+          "id": 2,
+          "title": "maybe somewhere else",
+          "src": "/for-what-wasnt/02 Maybe Somewhere Else_1.mp3"
+        },
+        {
+          "id": 3,
+          "title": "we were younger then",
+          "src": "/for-what-wasnt/03 We Were Younger Then_1.mp3"
+        },
+        {
+          "id": 4,
+          "title": "the house after midnight",
+          "src": "/for-what-wasnt/04 The House After Midnight_1.mp3"
+        },
+        {
+          "id": 5,
+          "title": "i dont remember your face",
+          "src": "/for-what-wasnt/05 I Dont Remember Your Face_1.mp3"
+        },
+        {
+          "id": 6,
+          "title": "the tape was already there",
+          "src": "/for-what-wasnt/06 The Tape Was Already There_1.mp3"
+        },
+        {
+          "id": 7,
+          "title": "nothing happened really",
+          "src": "/for-what-wasnt/07 Nothing Happened Really_1.mp3"
+        },
+        {
+          "id": 8,
+          "title": "you were supposed to be here",
+          "src": "/for-what-wasnt/08 You Were Supposed to Be Here_1.mp3"
+        },
+        {
+          "id": 9,
+          "title": "before everything changed",
+          "src": "/for-what-wasnt/09 Before Everything Changed_1.mp3"
+        },
+        {
+          "id": 10,
+          "title": "when the tape ends",
+          "src": "/for-what-wasnt/10 When the Tape Ends_1.mp3"
+        }
+      ]
+    }
+  ]
+}
