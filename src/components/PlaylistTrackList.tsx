@@ -29,8 +29,10 @@ export default function PlaylistTrackList({
     const tracksByTitle: Record<string, string[]> = {};
     playlist.tracks.forEach((set) => {
       set.tracks.forEach((t) => {
-        if (!tracksByTitle[t.title]) tracksByTitle[t.title] = [];
-        tracksByTitle[t.title].push(t.src);
+        if (t.src && t.src.trim() !== "") {
+          if (!tracksByTitle[t.title]) tracksByTitle[t.title] = [];
+          tracksByTitle[t.title].push(t.src);
+        }
       });
     });
 
@@ -97,19 +99,27 @@ export default function PlaylistTrackList({
                 current.trackIndex === idx;
 
               const isPlayingNow = isCurrentTrack && isPlaying;
-              const isShortest = shortestTracks[track.title] === track.src;
+              const isShortest = track.src
+                ? shortestTracks[track.title] === track.src
+                : false;
+
+              const isMissingSrc = !track.src || track.src.trim() === "";
 
               return (
                 <li key={track.id}>
                   <button
                     type="button"
                     onClick={() =>
+                      !isMissingSrc &&
                       handlePlayTrack(playlist.id, trackSetIndex, idx)
                     }
+                    disabled={isMissingSrc}
                     className={`group flex w-full items-center justify-between rounded px-1.5 py-0.5 text-left text-[11px] leading-tight transition-colors ${
-                      isCurrentTrack
-                        ? "border-[#bd7088] border-l bg-[#241218] text-[#f1e5e8]"
-                        : "text-[#aa969c]/90 hover:bg-[#1d1016]/40 hover:text-[#f1e5e8]"
+                      isMissingSrc
+                        ? "cursor-not-allowed text-[#5d4b51] opacity-25 hover:bg-transparent"
+                        : isCurrentTrack
+                          ? "border-[#bd7088] border-l bg-[#241218] text-[#f1e5e8]"
+                          : "text-[#aa969c]/90 hover:bg-[#1d1016]/40 hover:text-[#f1e5e8]"
                     }`}
                   >
                     <div className="flex min-w-0 items-center gap-1.5">
@@ -130,13 +140,19 @@ export default function PlaylistTrackList({
                       </div>
 
                       <span
-                        className={`truncate ${isCurrentTrack ? "font-semibold" : "font-normal"}`}
+                        className={`truncate ${
+                          isMissingSrc
+                            ? "line-through opacity-60"
+                            : isCurrentTrack
+                              ? "font-semibold"
+                              : "font-normal"
+                        }`}
                       >
                         {track.title}
                       </span>
                     </div>
 
-                    {isShortest && (
+                    {isShortest && !isMissingSrc && (
                       <div
                         className="flex shrink-0 items-center pl-1"
                         title="Mais curta"

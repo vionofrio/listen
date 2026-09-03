@@ -1,0 +1,119 @@
+{
+  "id": 1,
+  "name": "when you're just a memory",
+  "genre": "Sad Lo-fi Lullaby",
+  "tracks": [
+    {
+      "id": "version-1",
+      "label": "V1",
+      "tracks": [
+        {
+          "id": 1,
+          "title": "when you're just a memory",
+          "src": "/just-a-memory/3-01.wav"
+        },
+        {
+          "id": 2,
+          "title": "i still know the sound of your voice",
+          "src": "/just-a-memory/3-02.wav"
+        },
+        {
+          "id": 3,
+          "title": "your side of the bed",
+          "src": "/just-a-memory/3-03.wav"
+        },
+        {
+          "id": 4,
+          "title": "things i never got to say",
+          "src": "/just-a-memory/3-04.wav"
+        },
+        {
+          "id": 5,
+          "title": "i almost called you",
+          "src": "/just-a-memory/3-05.wav"
+        },
+        {
+          "id": 6,
+          "title": "some songs still remind me of you",
+          "src": "/just-a-memory/3-06.wav"
+        },
+        {
+          "id": 7,
+          "title": "i don't think about you every day anymore",
+          "src": "/just-a-memory/3-07.wav"
+        },
+        {
+          "id": 8,
+          "title": "i wonder where you are sometimes",
+          "src": "/just-a-memory/3-08.wav"
+        },
+        {
+          "id": 9,
+          "title": "you don't feel so far away tonight",
+          "src": "/just-a-memory/3-09.wav"
+        },
+        {
+          "id": 10,
+          "title": "until you're only a memory",
+          "src": "/just-a-memory/3-10.wav"
+        }
+      ]
+    },
+    {
+      "id": "version-2",
+      "label": "V2",
+      "tracks": [
+        {
+          "id": 1,
+          "title": "when you're just a memory",
+          "src": ""
+        },
+        {
+          "id": 2,
+          "title": "i still know the sound of your voice",
+          "src": "/just-a-memory/3-02 (1).wav"
+        },
+        {
+          "id": 3,
+          "title": "your side of the bed",
+          "src": "/just-a-memory/3-03 (1).wav"
+        },
+        {
+          "id": 4,
+          "title": "things i never got to say",
+          "src": "/just-a-memory/3-04 (1).wav"
+        },
+        {
+          "id": 5,
+          "title": "i almost called you",
+          "src": "/just-a-memory/3-05 (1).wav"
+        },
+        {
+          "id": 6,
+          "title": "some songs still remind me of you",
+          "src": "/just-a-memory/3-06 (1).wav"
+        },
+        {
+          "id": 7,
+          "title": "i don't think about you every day anymore",
+          "src": ""
+        },
+        {
+          "id": 8,
+          "title": "i wonder where you are sometimes",
+          "src": ""
+        },
+        {
+          "id": 9,
+          "title": "you don't feel so far away tonight",
+          "src": ""
+        },
+        {
+          "id": 10,
+          "title": "until you're only a memory",
+          "src": ""
+        }
+      ]
+    }
+  ]
+}
