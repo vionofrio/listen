@@ -4,6 +4,7 @@ import { Icon } from "@iconify/react";
 import { useEffect, useState } from "react";
 import ReactPlayer from "react-player";
 import DownloadLightestButton from "@/components/DownloadLightestButton";
+import DownloadLongestButton from "@/components/DownloadLongestButton";
 import DownloadPlaylistButton from "@/components/DownloadPlaylistButton";
 import PlaylistTrackList from "@/components/PlaylistTrackList";
 import type { PlaylistContextType, PlaylistData } from "@/types/playlist";
@@ -230,6 +231,7 @@ export default function Home() {
                     <div className="flex shrink-0 items-center justify-end gap-1">
                       <DownloadPlaylistButton playlist={playlist} />
                       <DownloadLightestButton playlist={playlist} />
+                      <DownloadLongestButton playlist={playlist} />
                     </div>
                   </div>
                 </div>
