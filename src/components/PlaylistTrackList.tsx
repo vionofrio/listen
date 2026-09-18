@@ -81,7 +81,12 @@ export default function PlaylistTrackList({
   }, [playlist]);
 
   return (
-    <div className="grid w-full grid-cols-2 gap-2">
+    <div
+      className="grid w-full items-start gap-2"
+      style={{
+        gridTemplateColumns: `repeat(${Math.max(playlist.tracks.length, 1)}, minmax(0, 1fr))`,
+      }}
+    >
       {playlist.tracks.map((trackSet, trackSetIndex) => (
         <div key={trackSet.id} className="flex min-w-0 flex-col">
           <div className="mb-1 flex items-center gap-1.5 px-1">

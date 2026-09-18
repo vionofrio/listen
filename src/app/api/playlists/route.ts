@@ -6,14 +6,25 @@ import type { PlaylistData } from "@/types/playlist";
 export async function GET() {
   try {
     const playlistsDirectory = path.join(process.cwd(), "public", "playlists");
-    const files = await readdir(playlistsDirectory);
-    const playlistFiles = files
-      .filter((file) => file.toLowerCase().endsWith(".json"))
+    const entries = await readdir(playlistsDirectory, { withFileTypes: true });
+    const playlistDirectories = entries
+      .filter((entry) => entry.isDirectory())
+      .map((entry) => entry.name)
       .sort();
 
     const playlists = await Promise.all(
-      playlistFiles.map(async (file) => {
-        const filePath = path.join(playlistsDirectory, file);
+      playlistDirectories.map(async (directory) => {
+        const directoryPath = path.join(playlistsDirectory, directory);
+        const files = await readdir(directoryPath);
+        const playlistFile = files.find((file) =>
+          file.toLowerCase().endsWith(".json"),
+        );
+
+        if (!playlistFile) {
+          throw new Error(`No playlist JSON found in ${directory}.`);
+        }
+
+        const filePath = path.join(directoryPath, playlistFile);
         const contents = await readFile(filePath, "utf8");
         return JSON.parse(contents) as PlaylistData;
       }),

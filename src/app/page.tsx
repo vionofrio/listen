@@ -201,7 +201,7 @@ export default function Home() {
             </div>
           )}
 
-          <section className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
+          <section className="grid grid-cols-1 gap-3 lg:grid-cols-2">
             {playlists.map((playlist) => (
               <div
                 key={playlist.id}
@@ -223,7 +223,11 @@ export default function Home() {
                         </span>
                         <span className="text-[#3a252d]">•</span>
                         <span className="shrink-0">
-                          {playlist.tracks[0]?.tracks.length ?? 0} faixas
+                          {playlist.tracks.reduce(
+                            (total, trackSet) => total + trackSet.tracks.length,
+                            0,
+                          )}{" "}
+                          faixas
                         </span>
                       </div>
                     </div>

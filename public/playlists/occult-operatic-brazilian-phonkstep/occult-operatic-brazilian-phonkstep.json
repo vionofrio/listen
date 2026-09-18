@@ -1,0 +1,40 @@
+{
+  "id": 1,
+  "name": "Occult Operatic Brazilian Phonkstep",
+  "genre": "Occult Operatic Brazilian Phonkstep",
+  "tracks": [
+    {
+      "id": "version-1",
+      "label": "V1",
+      "tracks": [
+        {
+          "id": 1,
+          "title": "REQUIEM",
+          "src": "./playlists/occult-operatic-brazilian-phonkstep/tracks/REQUIEM.mp3"
+        }
+      ]
+    },
+    {
+      "id": "version-2",
+      "label": "V2",
+      "tracks": [
+        {
+          "id": 1,
+          "title": "REQUIEM",
+          "src": "./playlists/occult-operatic-brazilian-phonkstep/tracks/REQUIEM (2).mp3"
+        }
+      ]
+    },
+    {
+      "id": "version-3",
+      "label": "Drop sem vocais",
+      "tracks": [
+        {
+          "id": 1,
+          "title": "REQUIEM",
+          "src": "./playlists/occult-operatic-brazilian-phonkstep/tracks/REQUIEM (3).mp3"
+        }
+      ]
+    }
+  ]
+}
