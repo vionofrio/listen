@@ -1,0 +1,29 @@
+{
+  "id": 1,
+  "name": "Witch House + Kawaii Future Bass",
+  "genre": "Witch House + Kawaii Future Bass",
+  "tracks": [
+    {
+      "id": "version-1",
+      "label": "V1",
+      "tracks": [
+        {
+          "id": 1,
+          "title": "Kawaii na Escuridão",
+          "src": "./playlists/witch-house-kawaii-future-bass/tracks/Kawaii na Escuridão_deedc7fb-167b-4ba1-97e5-aa81d01e9e80.mp3"
+        }
+      ]
+    },
+    {
+      "id": "version-2",
+      "label": "V2",
+      "tracks": [
+        {
+          "id": 1,
+          "title": "Kawaii na Escuridão",
+          "src": "./playlists/witch-house-kawaii-future-bass/tracks/Kawaii na Escuridão_f8bcac09-ac2b-48de-b276-76db1bd4cc16.mp3"
+        }
+      ]
+    }
+  ]
+}

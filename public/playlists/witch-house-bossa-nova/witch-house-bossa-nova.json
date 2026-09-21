@@ -1,0 +1,29 @@
+{
+  "id": 2,
+  "name": "Witch House + Bossa Nova",
+  "genre": "Witch House + Bossa Nova",
+  "tracks": [
+    {
+      "id": "version-1",
+      "label": "V1",
+      "tracks": [
+        {
+          "id": 1,
+          "title": "Corpo de Cinza",
+          "src": "./playlists/witch-house-bossa-nova/tracks/Corpo de Cinza_0f458ef4-de36-4fcc-88b0-455f2f2c0408.mp3"
+        }
+      ]
+    },
+    {
+      "id": "version-2",
+      "label": "V2",
+      "tracks": [
+        {
+          "id": 1,
+          "title": "Corpo de Cinza",
+          "src": "./playlists/witch-house-bossa-nova/tracks/Corpo de Cinza_42d45276-c8b2-4a90-98a8-4d4020fc3533.mp3"
+        }
+      ]
+    }
+  ]
+}
