@@ -1,0 +1,38 @@
+{
+  "id": 1,
+  "name": "Witch House x Spookycore",
+  "genre": "Witch House x Spookycore",
+  "tracks": [
+    {
+      "id": "version-1",
+      "label": "V1",
+      "tracks": [
+        {
+          "id": 1,
+          "title": "Your Doll Is Broken",
+          "src": "./playlists/witch-house-spookycore/tracks/Your-Doll-Is-Broken_6435fd50-fb44-4c1e-a879-6e5664ea9a14-_6_.mp3"
+        },
+        {
+          "id": 2,
+          "title": "Cinderella's Rotting",
+          "src": "./playlists/witch-house-spookycore/tracks/Cinderella-Rotting_826471d3-e80b-4f8f-af0a-185d59b7a24d.mp3"
+        },
+        {
+          "id": 3,
+          "title": "Toybox Tragedy",
+          "src": "./playlists/witch-house-spookycore/tracks/Toybox-Tragedy_1ae183ed-f5f5-4e0f-9408-e45055802331.mp3"
+        },
+        {
+          "id": 4,
+          "title": "Broke the Glass Slipper",
+          "src": "./playlists/witch-house-spookycore/tracks/Broke-the-Glass-Slipper_8f40b6ab-b854-42b8-bfda-b68e24ec43ce.mp3"
+        },
+        {
+          "id": 5,
+          "title": "Conto de Fadas Fodeu",
+          "src": "./playlists/witch-house-spookycore/tracks/Conto-de-Fadas-Fodeu_9fba80cb-ab4c-4118-82dd-3f981c1db0a6.mp3"
+        }
+      ]
+    }
+  ]
+}
