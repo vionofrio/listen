@@ -1,7 +1,7 @@
 {
   "id": 2,
-  "name": "Witch House + Bossa Nova",
-  "genre": "Witch House + Bossa Nova",
+  "name": "Witch House × Bossa Nova",
+  "genre": "Witch House × Bossa Nova",
   "tracks": [
     {
       "id": "version-1",
@@ -11,6 +11,21 @@
           "id": 1,
           "title": "Corpo de Cinza",
           "src": "./playlists/witch-house-bossa-nova/tracks/Corpo de Cinza_0f458ef4-de36-4fcc-88b0-455f2f2c0408.mp3"
+        },
+        {
+          "id": 2,
+          "title": "Maré de Vidro",
+          "src": "./playlists/witch-house-bossa-nova/tracks/Maré de Vidro_09df57fe-25d7-4258-992c-81b295f6bc64.mp3"
+        },
+        {
+          "id": 3,
+          "title": "Quarto 302",
+          "src": "./playlists/witch-house-bossa-nova/tracks/Quarto 302_847865c9-3589-46e1-a613-6b8fb1e6e3ea.mp3"
+        },
+        {
+          "id": 4,
+          "title": "Última Mesa",
+          "src": "./playlists/witch-house-bossa-nova/tracks/Última Mesa_a5bf7dee-e003-4ef5-9a6d-55e7ec171926.mp3"
         }
       ]
     },
@@ -22,6 +37,21 @@
           "id": 1,
           "title": "Corpo de Cinza",
           "src": "./playlists/witch-house-bossa-nova/tracks/Corpo de Cinza_42d45276-c8b2-4a90-98a8-4d4020fc3533.mp3"
+        },
+        {
+          "id": 2,
+          "title": "Maré de Vidro",
+          "src": "./playlists/witch-house-bossa-nova/tracks/Maré de Vidro_d7aaa088-f09f-4f19-b0fc-840b1105ffae.mp3"
+        },
+        {
+          "id": 3,
+          "title": "Quarto 302",
+          "src": "./playlists/witch-house-bossa-nova/tracks/Quarto 302_b837216a-60f9-4df8-93e6-6e4614a53cdc.mp3"
+        },
+        {
+          "id": 4,
+          "title": "Última Mesa",
+          "src": "./playlists/witch-house-bossa-nova/tracks/Última Mesa_0c9f1ee3-6340-4496-8bb0-b4220ebee4ff.mp3"
         }
       ]
     }
