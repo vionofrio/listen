@@ -1,0 +1,131 @@
+{
+  "id": 6,
+  "name": "Quarto de Vidro",
+  "genre": "Witch House × Dream Pop",
+  "tracks": [
+    {
+      "id": "version-1",
+      "label": "V1",
+      "tracks": [
+        {
+          "id": 1,
+          "title": "Vidro Azul",
+          "src": "./playlists/quarto-de-vidro/tracks/Vidro Azul_03d14a20-c029-41de-9595-65421ef306f8.m4a"
+        },
+        {
+          "id": 2,
+          "title": "Céu de Papel",
+          "src": "./playlists/quarto-de-vidro/tracks/Céu de Papel_758d6b01-8512-4571-bd8a-f2a1222c9a00.m4a"
+        },
+        {
+          "id": 3,
+          "title": "Lagoa de Luz",
+          "src": "./playlists/quarto-de-vidro/tracks/Lagoa goa de luz_bf6ce8b2-5b10-49ec-a4d7-b9333a0b1a99.m4a"
+        },
+        {
+          "id": 4,
+          "title": "Quarto de Nuvens",
+          "src": "./playlists/quarto-de-vidro/tracks/Quarto de Nuvens_a7569859-a07c-41e3-94ab-d7fc608ac171.m4a"
+        },
+        {
+          "id": 5,
+          "title": "Quando a Noite Respira",
+          "src": "./playlists/quarto-de-vidro/tracks/Quando a noite respira_76d8e60c-153d-42d7-bf8f-9244e5457f42.m4a"
+        }
+      ]
+    },
+    {
+      "id": "version-2",
+      "label": "V2",
+      "tracks": [
+        {
+          "id": 1,
+          "title": "Vidro Azul",
+          "src": "./playlists/quarto-de-vidro/tracks/Vidro Azul_6fc1ea8b-7354-4996-8804-fa250c4bee29.m4a"
+        },
+        {
+          "id": 2,
+          "title": "Céu de Papel",
+          "src": "./playlists/quarto-de-vidro/tracks/Céu de Papel_6f21cd4e-21ec-42ff-aef7-a7c4d054d823.m4a"
+        },
+        {
+          "id": 3,
+          "title": "Lagoa de Luz",
+          "src": "./playlists/quarto-de-vidro/tracks/Lagoa goa de luz_15d28b0c-9f7c-4d33-921a-a908e0a779f1.m4a"
+        },
+        {
+          "id": 4,
+          "title": "Quarto de Nuvens",
+          "src": "./playlists/quarto-de-vidro/tracks/Quarto de Nuvens_fb49fe0a-427d-42c2-b8c6-c658889d99eb.m4a"
+        },
+        {
+          "id": 5,
+          "title": "Quando a Noite Respira",
+          "src": "./playlists/quarto-de-vidro/tracks/Quando a noite respira_25a40e96-8315-457f-bd5b-5107b38d55fc.m4a"
+        }
+      ]
+    },
+    {
+      "id": "version-3",
+      "label": "V3",
+      "tracks": [
+        {
+          "id": 1,
+          "title": "Vidro Azul",
+          "src": "./playlists/quarto-de-vidro/tracks/Vidro Azul_44eb93d9-7489-4653-8373-2151273a6f84.m4a"
+        },
+        {
+          "id": 2,
+          "title": "Céu de Papel",
+          "src": "./playlists/quarto-de-vidro/tracks/Céu de Papel_0303ffa8-5977-4d5c-8d2b-464d51a85978.m4a"
+        },
+        {
+          "id": 3,
+          "title": "Lagoa de Luz",
+          "src": "./playlists/quarto-de-vidro/tracks/Lagoa de Luz_00d7abbb-6c15-45e0-84af-19b89ba1b2f8.m4a"
+        },
+        {
+          "id": 4,
+          "title": "Quarto de Nuvens",
+          "src": "./playlists/quarto-de-vidro/tracks/Quarto de Nuvens_949341c6-9344-4ad9-9ba9-099fc7467231.m4a"
+        },
+        {
+          "id": 5,
+          "title": "Quando a Noite Respira",
+          "src": "./playlists/quarto-de-vidro/tracks/Quando a noite respira_8a9798fd-24e8-4962-9017-50d5975673df.m4a"
+        }
+      ]
+    },
+    {
+      "id": "version-4",
+      "label": "V4",
+      "tracks": [
+        {
+          "id": 1,
+          "title": "Vidro Azul",
+          "src": "./playlists/quarto-de-vidro/tracks/Vidro Azul_86726e6b-d2b3-4828-93b0-fa61cee120fc.m4a"
+        },
+        {
+          "id": 2,
+          "title": "Céu de Papel",
+          "src": "./playlists/quarto-de-vidro/tracks/Céu de Papel_abb462e4-7ad8-4fa2-b354-0bee0a5640ca.m4a"
+        },
+        {
+          "id": 3,
+          "title": "Lagoa de Luz",
+          "src": "./playlists/quarto-de-vidro/tracks/Lagoa de Luz_01908260-ccea-4f46-9df7-ef3f06a2313e.m4a"
+        },
+        {
+          "id": 4,
+          "title": "Quarto de Nuvens",
+          "src": "./playlists/quarto-de-vidro/tracks/Quarto de Nuvens_1f70f5e3-989d-4c09-a81c-2e50df06a42e.m4a"
+        },
+        {
+          "id": 5,
+          "title": "Quando a Noite Respira",
+          "src": "./playlists/quarto-de-vidro/tracks/Quando a noite respira_8e2cb7a5-8593-4316-8b93-1eff00e19baf.m4a"
+        }
+      ]
+    }
+  ]
+}
