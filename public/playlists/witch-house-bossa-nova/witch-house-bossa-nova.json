@@ -26,6 +26,16 @@
           "id": 4,
           "title": "Última Mesa",
           "src": "./playlists/witch-house-bossa-nova/tracks/Última Mesa_a5bf7dee-e003-4ef5-9a6d-55e7ec171926.mp3"
+        },
+        {
+          "id": 5,
+          "title": "Bossa nas Cinzas",
+          "src": "./playlists/witch-house-bossa-nova/tracks/Bossa nas Cinzas_78761bd4-fc7f-4807-827b-35efa408d164.m4a"
+        },
+        {
+          "id": 6,
+          "title": "Dorme na Correnteza",
+          "src": "./playlists/witch-house-bossa-nova/tracks/Dorme na Correnteza_b5d9579f-8ea5-413d-a960-c7006dab796d.m4a"
         }
       ]
     },
