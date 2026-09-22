@@ -1,0 +1,29 @@
+{
+  "id": 5,
+  "name": "Witch House × Industrial × Horrorcore × Trap Metal",
+  "genre": "Witch House × Industrial × Horrorcore × Trap Metal",
+  "tracks": [
+    {
+      "id": "version-1",
+      "label": "V1",
+      "tracks": [
+        {
+          "id": 1,
+          "title": "Monstro Desta Demolição",
+          "src": "./playlists/witch-house-industrial-horrorcore-trap metal/tracks/Monstro desta Demolição_42a02e6c-0218-4402-aedb-a09bdb099b58.mp3"
+        }
+      ]
+    },
+    {
+      "id": "version-2",
+      "label": "V2",
+      "tracks": [
+        {
+          "id": 1,
+          "title": "Monstro Desta Demolição",
+          "src": "./playlists/witch-house-industrial-horrorcore-trap metal/tracks/Monstro desta Demolição_7430da27-1738-49c1-b55b-37f62485f170.mp3"
+        }
+      ]
+    }
+  ]
+}

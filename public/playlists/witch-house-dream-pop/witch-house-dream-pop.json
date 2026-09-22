@@ -1,0 +1,51 @@
+{
+  "id": 3,
+  "name": "Witch House × Dream Pop",
+  "genre": "Witch House × Dream Pop",
+  "tracks": [
+    {
+      "id": "version-1",
+      "label": "V1",
+      "tracks": [
+        {
+          "id": 1,
+          "title": "Vidro Azul",
+          "src": "./playlists/witch-house-dream-pop/tracks/Vidro Azul_0ad682a2-e8fe-445d-b3ce-e1879dbaf97a.mp3"
+        }
+      ]
+    },
+    {
+      "id": "version-2",
+      "label": "V2",
+      "tracks": [
+        {
+          "id": 1,
+          "title": "Vidro Azul",
+          "src": "./playlists/witch-house-dream-pop/tracks/Vidro Azul_29c00762-8b2d-4785-b265-1421193c0a84.mp3"
+        }
+      ]
+    },
+    {
+      "id": "version-3",
+      "label": "V3",
+      "tracks": [
+        {
+          "id": 1,
+          "title": "Vidro Azul",
+          "src": "./playlists/witch-house-dream-pop/tracks/Vidro Azul_a85bac40-0d69-4442-9b7e-6e7235575cef.mp3"
+        }
+      ]
+    },
+    {
+      "id": "version-4",
+      "label": "V4",
+      "tracks": [
+        {
+          "id": 1,
+          "title": "Vidro Azul",
+          "src": "./playlists/witch-house-dream-pop/tracks/Vidro Azul_1f072ab3-2467-4aa6-b888-b2865d9d3987.mp3"
+        }
+      ]
+    }
+  ]
+}
